@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Unified Data Platform Prototype</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="p-4">
+  <div class="container">
+    <header class="mb-4">
+      <h1>Unified Data Platform</h1>
+      <nav>
+        <a href="/">Home</a> |
+        <a href="/uploads/new/">Upload Data</a> |
+        <a href="/ml/">Run Predictions</a> |
+        <a href="/dashboard/">Dashboard</a>
+      </nav>
+    </header>
+    {% block content %}{% endblock %}
+  </div>
+</body>
+</html>

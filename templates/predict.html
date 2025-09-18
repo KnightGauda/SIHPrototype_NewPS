@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h3>ML Prediction</h3>
+  <p>Select prediction type (prototype has stubbed predictions).</p>
+  <form method="post" action="/ml/run/">
+    {% csrf_token %}
+    <select name="type" class="form-select mb-2">
+      <option value="catch">Fisheries Catch Prediction</option>
+      <option value="biodiversity">Biodiversity Index Prediction</option>
+      <option value="water">Water Quality Classification</option>
+    </select>
+    <button class="btn btn-primary" type="submit">Run</button>
+  </form>
+{% endblock %}

@@ -1,0 +1,6 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h3>Preview: {{ object.name }}</h3>
+  <div>{{ preview_html|safe }}</div>
+  <a class="btn btn-outline-primary" href="/ml/">Run Predictions</a>
+{% endblock %}

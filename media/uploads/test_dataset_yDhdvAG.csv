@@ -1,0 +1,6 @@
+Site,Temperature_C,Salinity_psu,Species_FishA_Count,Species_FishB_Count,Species_FishC_Count,Total_Catch_kg,Water_Quality
+A1,22.5,35.1,120,80,40,200,Safe
+A2,23.1,34.8,150,95,50,250,Safe
+A3,21.8,35.5,130,70,45,220,Unsafe
+B1,24.0,34.9,160,85,55,270,Safe
+B2,23.7,35.2,170,90,60,290,Safe

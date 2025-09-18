@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+{% block content %}
+  <h3>Prediction Results</h3>
+  <div class="card mb-3 p-3">
+    <p><strong>Numerical:</strong></p>
+    <pre>{{ results.numerical }}</pre>
+    <p><strong>Categorized:</strong></p>
+    <pre>{{ results.categorized }}</pre>
+  </div>
+  <a class="btn btn-secondary" href="/dashboard/">Go to Dashboard</a>
+{% endblock %}
