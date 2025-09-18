@@ -2,8 +2,13 @@ from pathlib import Path
 import os
 BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'prototype-secret-key'
-DEBUG = True
-ALLOWED_HOSTS = []
+DEBUG = 0
+ALLOWED_HOSTS = ["aquasphereinsights.onrender.com"]
+
+CSRF_TRUSTED_ORIGINS = [
+    "https://aquasphereinsights.onrender.com",
+]
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
